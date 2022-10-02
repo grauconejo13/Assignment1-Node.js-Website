@@ -1,0 +1,100 @@
+/*Vanessa Victorino - 301201653*/
+
+#homeMessage {
+    font-size: 40px;
+    color: #20B2AA;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.link li {
+    display: inline;
+    font-stretch: condensed;
+}
+
+.link {
+    margin-left: 70px;
+    margin-top: -49px;
+    font-size: 40px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*------------------------------*/
+
+
+/*about page*/
+
+#highlight {
+    color: hotpink;
+}
+
+.leftSide {
+    padding-left: 12px;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 505px;
+}
+
+.rightSide {
+    display: block;
+    float: right;
+    width: 40%;
+}
+
+.rightSide img {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+/*------------------------*/
+
+.link a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #20B2AA;
+}
+
+.assignment-links a {
+    font-size: 20px;
+    color: #20B2AA;
+}
+
+.assignment-links li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.box {
+    float: left;
+    padding: 3px;
+}
+
+#A,
+#B {
+    text-align: center;
+    background: black;
+    color: ghostwhite;
+}
+
+#Awork,
+#Bwork {
+    font-size: 30px;
+    font-weight: bolder;
+    border: solid black 2px;
+    background-color: grey;
+    width: 90%;
+    margin: 5px;
+}
+
+
+/*------------------------------------------------------------------------------*/
