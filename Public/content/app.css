@@ -1,5 +1,8 @@
 /*Vanessa Victorino - 301201653*/
 
+
+/*COMP229-401 - Assignment #1*/
+
 #homeMessage {
     font-size: 40px;
     color: #20B2AA;
@@ -37,7 +40,6 @@
 }
 
 .leftSide {
-    color: ghostwhite;
     padding-left: 12px;
     display: block;
     float: left;
@@ -102,11 +104,11 @@
 
 /*Contact page*/
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    padding-bottom: 100px;
+#contactPage {
+    margin: 0 auto;
+    padding: 2;
+    background-color: black;
+    padding-bottom: 90px;
 }
 
 #contact {
@@ -129,7 +131,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     position: relative;
     max-width: 840px;
 }
@@ -139,14 +141,14 @@ body {
 
 .form-horizontal {
     /*float: left;*/
-    max-width: 400px;
+    max-width: 350px;
     font-family: 'Lato';
     font-weight: 400;
 }
 
 .form-control,
 textarea {
-    max-width: 400px;
+    max-width: 350px;
     background-color: #000;
     color: #fff;
     letter-spacing: 1px;
@@ -155,7 +157,7 @@ textarea {
 .send-button {
     margin-top: 15px;
     height: 34px;
-    width: 400px;
+    width: 350px;
     overflow: hidden;
     transition: all .2s ease-in-out;
 }
@@ -363,6 +365,15 @@ hr {
     .send-button {
         width: 99%;
     }
+}
+
+#copyright {
+    font-size: 15px;
+    color: grey;
+}
+
+.container {
+    margin-top: 20px;
 }
 
 

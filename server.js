@@ -7,6 +7,7 @@ import http from 'http';
 
 import app from './app/app.js';
 
+var port;
 const PORT = normalizePort(process.env.PORT || 3000);
 app.set('port', PORT);
 
@@ -17,7 +18,7 @@ server.on('error', onError);
 server.on('listening', onListening);
 
 function normalizePort(val) {
-    var port = parseInt(val, 10);
+    port = parseInt(val, 10);
     if (isNaN(port)) {
         return val;
     }
