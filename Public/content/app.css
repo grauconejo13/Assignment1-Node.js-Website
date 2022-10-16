@@ -63,6 +63,9 @@ body{
     text-decoration: none;
     color: #20B2AA;
 }
+.alink:hover { 
+    color: red;
+}
 
 .assignment-links a {
     font-size: 20px;
