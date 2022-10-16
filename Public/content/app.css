@@ -3,6 +3,10 @@
 
 /*COMP229-401 - Assignment #1*/
 
+body{
+    background-image: linear-gradient(to right, darkgoldenrod 0%, saddlebrown 100%);
+}
+
 #homeMessage {
     font-size: 40px;
     color: #20B2AA;
@@ -19,26 +23,6 @@
     /*no-repeat center fixed;*/
     width: 100%;
 }
-
-.link li {
-    display: inline;
-    font-stretch: condensed;
-}
-
-.link {
-    margin-left: 70px;
-    margin-top: -49px;
-    font-size: 40px;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.link a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: black;
-}
-
 
 /*------------------------------*/
 
@@ -118,7 +102,6 @@
     margin: 0 auto;
     padding: 2;
     background-color: black;
-    padding-bottom: 90px;
 }
 
 #contact {
@@ -126,15 +109,6 @@
     height: 100%;
 }
 
-.section-header {
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
-    font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
 
 .contact-wrapper {
     display: flex;
@@ -207,13 +181,13 @@ textarea {
 
 .list-item {
     line-height: 4;
-    color: #aaa;
+     color: ghostwhite;
 }
 
 .contact-text {
     font: 300 18px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: #bbb;
+    letter-spacing: 1.8px;
+    color: ghostwhite;
 }
 
 .place {
@@ -229,13 +203,13 @@ textarea {
 }
 
 .contact-text a {
-    color: #bbb;
+    color: ghostwhite;
     text-decoration: none;
     transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-    color: #fff;
+    color: teal;
     text-decoration: none;
 }
 
