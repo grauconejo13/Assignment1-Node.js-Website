@@ -86,11 +86,55 @@ body{
 
 /*Services page*/
 
-#serviceMessage {
+/*#serviceMessage {
     text-align: center;
     font-size: 100px;
     color: teal;
+}*/
+.section-1 {
+    background-color: grey;
 }
+
+.left,
+.center,
+.right h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.left {
+    background-color: gray;
+    border: solid black 2px;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+
+.center {
+    background-color: gray;
+    border: solid black 2px;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+
+.right {
+    background-color: grey;
+    border: solid black 2px;
+    float: right;
+    width: 33.4%;
+    height: 300px;
+}
+
+.left:hover,
+.center:hover,
+.right:hover {
+    background-color: teal;
+    border: solid red 2px;
+}
+
 
 
 /*------------------*/
